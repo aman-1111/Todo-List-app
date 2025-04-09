@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aman's To-Do List</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="main-container">
+    <header>
+      <h1>📝 Aman's To-Do List</h1>
+      <button id="mode-toggle">🌙</button>
+    </header>
+
+    <div class="input-group">
+      <input type="text" id="task-input" placeholder="Enter a new task..." />
+      <button onclick="addTask()">Add</button>
+    </div>
+
+    <div class="task-stats">
+      <p id="task-count">Total Tasks: 0</p>
+      <button onclick="clearAll()">Clear All</button>
+    </div>
+
+    <ul id="task-list"></ul>
+  </div> <!-- End of main-container -->
+
+  <!-- Footer OUTSIDE the box -->
+  <footer>
+    <p>Created by Aman Chaurasia • April 9, 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
