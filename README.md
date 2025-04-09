@@ -8,9 +8,7 @@ A clean and responsive To-Do List web application built using HTML, CSS, and Jav
 
 👉 **[Click here to view the live app](https://amanchaurasia-todolist-app.netlify.app/)**
 
-> Replace `https://your-deployment-link.com` with your actual deployed project URL (e.g., GitHub Pages, Netlify, Vercel, etc.)
 
----
 
 ## 🚀 Features
 
